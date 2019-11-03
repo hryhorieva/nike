@@ -307,7 +307,8 @@ h1, h2 {
     border: 1px solid transparent;
 }
 
-.block-card-data__size--input:hover > label {
+.block-card-data__size--input label:hover,
+.block-card-data__size--input label:active {
     border: 1px solid #000000;
 }
 
